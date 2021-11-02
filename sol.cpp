@@ -14,7 +14,7 @@ int main() {
 		long long ans = 1;
 		if (n > 2) {
 			// otherwise, we need to use the formula for finding sum of first 'n - 2' multiples
-			// of 2 ((n - 2) was used because {1, 0} should be first 2 elements of the array)
+			// of 2 ((n - 2) was used because {1, 0} should be the first 2 elements of the array)
 			ans += (2 * ((n - 2) * (n - 2 + 1) / 2));
 		}
 		cout << ans << '\n';
